@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    
 }
 
 :root {
@@ -11,6 +12,6 @@
     --main-yellow: #F5CE69;
     --terceary-color: #648908;
     --brown-color: #C93414;
-    --second-brown: #8F1800
+    --second-brown: #8F1800;
 }
 

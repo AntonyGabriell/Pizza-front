@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,31 +8,72 @@
     <link rel="stylesheet" href="../FRONT/reset.css">
     <link rel="stylesheet" href="./dash.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat:wght@300;400;500&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap">
     <title>Dashboard</title>
 </head>
+
 <body>
     <header>
-        <img src="../FRONT/imgs/logo.png" alt="Logo pizzaria">
+        <img src="./imgs/logo.png" alt="" class="logo-img">
     </header>
 
     <main>
-        <div>
-            <p>Pizzas</p>
-            <p>Bebidas</p>
-            <p>Promoções</p>
+        <section>
+            <h2 class="nova-pizza">Nova Pizza</h2>
+
+            <div>
+            <p>Nome da pizza</p>
+            <input type="text">
+            </div>
+
+            <div class="buttons" id="botao-pizza">
+                <button type="button" class="button-cancelar"> Cancelar </button>
+                <button type="button" class="button-salvar"> Salvar </button>
+            </div>
+
+
+        <div class="wall">
+            <div>
+                <details>   
+                    <summary class="detail-pizza">Pizzas</summary>
+                    <div class="pizza-sections">
+                    <a href="#inserir-pizza">Inserir nova Pizza</a>
+                    <a href="#listar-pizza">Listar Pizzas</a>
+                    <a href="#add-ingrediente">Adcionar ingrediente</a>
+                    </div>
+                </details>
+                <details>
+                    <summary class="detail-bebida">Bebidas</summary>
+                    <div class="bebida-sections">
+                        <a href="#inserir-bebida">Inserir nova Pizza</a>
+                        <a href="#listar-bebida">Listar Pizzas</a>
+                        </div>
+                </details>
+                <details>
+                    <summary class="detail-promocoes">Promoções</summary>
+                    <div class="promocoes-sections">
+                        <a href="#inserir-promocao">Inserir nova Promoção</a>
+                        <a href="#listar-promocoes">Listar Promoções</a>
+                        </div>
+                </details>
+            </div>
         </div>
+    </section>
+    <section>
+      
+    </section>
     </main>
 
     <footer>
 
+
     </footer>
 </body>
+
 </html>
