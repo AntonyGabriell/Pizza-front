@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat:wght@300;400;500&display=swap"
-      rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap">
@@ -24,12 +24,36 @@
     </header>
 
     <main>
-        <section>
+        <section id="inserir-pizza">
             <h2 class="nova-pizza">Nova Pizza</h2>
 
-            <div>
-            <p>Nome da pizza</p>
-            <input type="text">
+            <div class="div-all-pizza">
+                <div class="div-nome-pizza">
+                    <p class="nome-pizza">Nome:</p>
+                    <input type="text" required class="input-pizza">
+                </div>
+
+                <div class="div-nome-ingrediente">
+                    <p class="nome-ingrediente">Ingredientes:</p>
+                    <input type="text" required class="input-ingrediente">
+                </div>
+
+                <div class="div-all-valor">
+                    <p class="valor-pizza">Valor</p>
+                    <input type="text" required class="input-valor">
+
+                   
+                </div>
+                 <details>
+                        <div class="container-tamanho">
+                            <summary class="detail-tamanho">Tamanhos</summary>
+                            <div class="tamanhos">
+                                <p>Pequeno</p>
+                                <p>Médio</p>
+                                <p>Grande</p>
+                            </div>
+                        </div>
+                    </details>
             </div>
 
             <div class="buttons" id="botao-pizza">
@@ -38,36 +62,67 @@
             </div>
 
 
-        <div class="wall">
-            <div>
-                <details>   
-                    <summary class="detail-pizza">Pizzas</summary>
-                    <div class="pizza-sections">
-                    <a href="#inserir-pizza">Inserir nova Pizza</a>
-                    <a href="#listar-pizza">Listar Pizzas</a>
-                    <a href="#add-ingrediente">Adcionar ingrediente</a>
-                    </div>
-                </details>
-                <details>
-                    <summary class="detail-bebida">Bebidas</summary>
-                    <div class="bebida-sections">
-                        <a href="#inserir-bebida">Inserir nova Pizza</a>
-                        <a href="#listar-bebida">Listar Pizzas</a>
+            <div class="wall">
+                <div>
+                    <details>
+                        <summary class="detail-pizza">Pizzas</summary>
+                        <div class="pizza-sections">
+                            <a href="#inserir-pizza">Inserir nova Pizza</a>
+                            <a href="#listar-pizza">Listar Pizzas</a>
+                            <a href="#add-ingrediente">Adcionar ingrediente</a>
                         </div>
-                </details>
-                <details>
-                    <summary class="detail-promocoes">Promoções</summary>
-                    <div class="promocoes-sections">
-                        <a href="#inserir-promocao">Inserir nova Promoção</a>
-                        <a href="#listar-promocoes">Listar Promoções</a>
+                    </details>
+                    <details>
+                        <summary class="detail-bebida">Bebidas</summary>
+                        <div class="bebida-sections">
+                            <a href="#inserir-bebida">Inserir nova Pizza</a>
+                            <a href="#listar-bebida">Listar Pizzas</a>
                         </div>
-                </details>
+                    </details>
+                    <details>
+                        <summary class="detail-promocoes">Promoções</summary>
+                        <div class="promocoes-sections">
+                            <a href="#inserir-promocao">Inserir nova Promoção</a>
+                            <a href="#listar-promocoes">Listar Promoções</a>
+                        </div>
+                    </details>
+                </div>
             </div>
-        </div>
-    </section>
-    <section>
-      
-    </section>
+        </section>
+            
+
+
+        
+        <section>
+            <h2 class="listar-pizzas">Pizzas</h2>
+        </section>
+
+        <section class="atualizar-pizza">
+            <h2 class="page-att-pizza">Atualizar Pizza</h2>
+
+            <div class="div-att-pizza">
+                <div class="div-att-pizza">
+                    <p class="att-pizza">Nome:</p>
+                    <input type="text" required class="input-att-pizza">
+                </div>
+
+                <div class="div-att-ingrediente">
+                    <p class="att-ingrediente">Ingredientes:</p>
+                    <input type="text" required class="input-att-ingrediente">
+                </div>
+
+                <div class="div-att-valor">
+                    <p class="valor-att">Valor</p>
+                    <input type="text" required class="input-att-valor">
+                </div>
+
+                <div class="buttons-att" id="botao-att-pizza">
+                    <button type="button" class="button-cancelar"> Cancelar </button>
+                    <button type="button" class="button-salvar"> Salvar </button>
+                </div>
+
+
+        </section>
     </main>
 
     <footer>
