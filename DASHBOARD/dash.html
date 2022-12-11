@@ -75,8 +75,8 @@
                     <details>
                         <summary class="detail-bebida">Bebidas</summary>
                         <div class="bebida-sections">
-                            <a href="#inserir-bebida">Inserir nova Pizza</a>
-                            <a href="#listar-bebida">Listar Pizzas</a>
+                            <a href="#inserir-bebida">Inserir nova Bebida</a>
+                            <a href="#listar-bebida">Listar Bebidas</a>
                         </div>
                     </details>
                     <details>
@@ -93,9 +93,11 @@
 
 
         
-        <section>
+        <section id="listar-pizza">
             <h2 class="listar-pizzas">Pizzas</h2>
         </section>
+
+
 
         <section class="atualizar-pizza">
             <h2 class="page-att-pizza">Atualizar Pizza</h2>
@@ -121,11 +123,92 @@
                     <button type="button" class="button-salvar"> Salvar </button>
                 </div>
 
+        </section>
 
+
+        <!--/////////////////////// FEITO EM CASA ////////////////////-->
+        <section id="add-ingrediente">
+            <h2 class="novo-ingrediente">Novo Ingrediente</h2>
+
+            <div class="div-all-ingrediente">
+                <div class="div-nome-ingrediente">
+                    <p class="nome-ingrediente">Nome:</p>
+                    <input type="text" required class="input-pizza">
+                </div>
+            </div>
+
+            <div class="buttons" id="botao-add-ingrediente">
+                <button type="button" class="button-cancelar"> Cancelar </button>
+                <button type="button" class="button-salvar"> Salvar </button>
+            </div>
+        </section>
+
+
+        <section id="inserir-bebida">
+            <h2 class="nova-bebida">Inserir uma Bebida</h2>
+
+            <div class="div-all-bebida">
+                <div class="div-nome -bebida">
+                    <p class="nome-bebida">Nome:</p>
+                    <input type="text" required class="input-att-bebida">
+                </div>
+
+                <div class="div-att-ingredientea">
+                    <p class="att-ingrediente">Medida:</p>
+                    <input type="text" required class="input-att-ingrediente">
+                </div>
+
+                <div class="div-att-valor">
+                    <p class="valor-att">Valor</p>
+                    <input type="text" required class="input-att-valor">
+                </div>
+
+                <div class="buttons-att" id="botao-att-pizza">
+                    <button type="button" class="button-cancelar"> Cancelar </button>
+                    <button type="button" class="button-salvar"> Salvar </button>
+                </div>
+
+        </section>
+
+        <section id="listar-bebida">
+            <h2 class="listar-bebidas">Bebidas</h2>
+        </section>
+
+
+
+        <section id="inserir-promocao">
+            <h2 class="page-att-promocao">Inserir nova promoção</h2>
+
+            <div class="div-all-promocao">
+                <div class="div-nome-promocao">
+                    <p class="nome-promocao">Nome:</p>
+                    <input type="text" required class="input-att-promocao">
+                </div>
+
+                <div class="div-att-ingrediente">
+                    <p class="att-ingrediente">Ingredientes:</p>
+                    <input type="text" required class="input-att-ingrediente">
+                </div>
+
+                <div class="div-att-valor">
+                    <p class="valor-att">Valor</p>
+                    <input type="text" required class="input-att-valor">
+                </div>
+
+                <div class="buttons-att" id="botao-att-pizza">
+                    <button type="button" class="button-cancelar"> Cancelar </button>
+                    <button type="button" class="button-salvar"> Salvar </button>
+                </div>
+
+        </section>
+
+        <section id="listar-promocoes">
+            <h2 class="listar-promocao">Promoções</h2>
         </section>
     </main>
 
     <footer>
+        
 
 
     </footer>
