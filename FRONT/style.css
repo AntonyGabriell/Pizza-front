@@ -119,7 +119,7 @@ span{
 
 
 
-.cards{
+#button-cards{
     width: 350px;
     height: 350px;
     display: flex;
@@ -128,7 +128,43 @@ span{
     gap: 370%;
 }
 
+#menu-pizzas{
+    background-color: #F4F1EC;
+    box-shadow: 3px 3px 3px grey;
+    font-family: 'Montserrat', sans-serif;
+    height: 10%;
+    border-radius: 5px;
+    margin-top: 50%;
+    margin-left: -16%;
+}
 
+.nome-pizza{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-family: 'Montserrat', sans-serif;
+    color: #648908;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.menu-ingredientes{
+    font-family: 'Montserrat', sans-serif;
+    color: #585858;
+    margin-left: 3%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.menu-valor{
+    margin-right: 2%;
+    margin-top: -5%;
+    justify-content: flex-end;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #585858;
+}
 
 .servicos-tittle{
     font-family: 'Montserrat', sans-serif;
