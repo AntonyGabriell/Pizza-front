@@ -1,0 +1,695 @@
+header {
+    position: fixed;
+    background-color: var(--header-background);
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 50px;
+    box-shadow: 3px 4px 5px grey;
+    z-index: 1;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    display: flex;
+    background: url(./imgs/Background.png);
+    background-size: cover;   
+}
+
+.wall {
+    background-color: var(--header-background);
+    width: 300px;
+    height: 1363px;
+    position: fixed;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    height: 100vh;
+    background: url(./imgs/Background.png);
+    background-size: cover;
+    background-position: right;
+
+}
+
+
+.detail-pizza {
+    display: flex;
+    margin-top: 300px;
+    margin-left: 90px;
+    width: 200px;
+    height: 300px;
+    z-index: 2;
+    color: #F5CE69;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.pizza-sections {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-top: -250px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detail-bebida {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 90px;
+    width: 200px;
+    height: 300px;
+ 
+    z-index: 2;
+    color: #F5CE69;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.bebida-sections {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-top: -250px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-pizza::-webkit-details-marker {
+    display: none
+}
+
+.detail-pizza:after {
+    border-radius: 5px;
+    content: "+";
+    color: #F5CE69;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: -6px 0 0 -130px;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+
+details[open] .detail-pizza:after {
+    content: "-";
+}
+
+.detail-bebida::-webkit-details-marker {
+    display: none
+}
+
+.detail-bebida:after {
+    border-radius: 5px;
+    content: "+";
+    color: #F5CE69;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: -6px 0 0 -160px;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+
+details[open] .detail-bebida:after {
+    content: "-";
+}
+
+
+
+
+
+
+
+
+
+.detail-promocoes {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 90px;
+    width: 200px;
+    height: 300px;
+ 
+    z-index: 2;
+    color: #F5CE69;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
+
+.promocoes-sections {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-top: -250px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-promocoes::-webkit-details-marker {
+    display: none
+}
+
+.detail-promocoes:after {
+    border-radius: 5px;
+    content: "+";
+    color: #F5CE69;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: -6px 0 0 -130px;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+
+details[open] .detail-promocoes:after {
+    content: "-";
+}
+
+.detail-promocoes::-webkit-details-marker {
+    display: none
+}
+
+.detail-promocoes:after {
+    border-radius: 5px;
+    content: "+";
+    color: #F5CE69;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: -6px 0 0 -210px;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+
+details[open] .detail-promocoes:after {
+    content: "-";
+}
+
+.nova-pizza{
+    display: flex;
+    color: #A54004;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    width: auto;
+    height: 35px;
+    margin-top: 9%;
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+.button-cancelar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+    border-color: rgb(181, 37, 37);
+    color: black;
+
+}
+
+.button-cancelar:hover{
+   background-color: #d90a0a;
+   transition: 0.2s;
+}   
+
+.button-salvar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    border-color: rgb(25, 198, 80);
+    color: black;
+}
+
+.button-salvar:hover{
+    background-color: #37a80b;
+    transition: 0.2s;
+ }  
+
+ .nome-pizza{
+   display: flex;
+   color: #742C02;
+   font-weight: 500;
+   margin-top: 500px;
+   font-size: 2.5rem;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .div-nome-pizza{
+    margin-left: -190px;
+ }
+
+ .input-pizza{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #A54004;
+    opacity: 70%;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 3px grey;
+ }
+
+ .nome-ingrediente{
+    display: flex;
+    color: #742C02;
+    font-weight: 500;
+    margin-top: 150px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+  .div-nome-ingrediente{
+     margin-left: -190px;
+  }
+ 
+  .input-ingrediente{
+     display: flex;
+     width: 350px;
+     height: 30px;
+     border-radius: 50px;
+     background-color: #A54004;
+     opacity: 70%;
+     font-size: 1.5rem;
+     box-shadow: 2px 3px 3px grey;
+  }
+
+  .valor-pizza{
+    display: flex;
+    color: #742C02;
+    font-weight: 500;
+    margin-top: 150px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+  .div-all-valor{
+     margin-left: -190px;
+     flex-direction: row;
+  }
+ 
+  .input-valor{
+     display: flex;
+     width: 130px;
+     height: 30px;
+     border-radius: 50px;
+     background-color: #A54004;
+     opacity: 70%;
+     font-size: 1.5rem;
+     box-shadow: 2px 3px 3px grey;
+    
+  }
+
+  .detail-tamanho::-webkit-details-marker {
+    display: none
+}
+
+.detail-tamanho:after {
+    border-radius: 5px;
+    content: "+";
+    color: #F5CE69;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: -6px 0 0 -210px;
+    padding: 0;
+    text-align: center;
+    width: 20px;
+}
+
+details[open] .detail-tamanho:after {
+    content: "-";
+}
+
+.page-att-pizza{
+        display: flex;
+        color: #A54004;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        margin-top: 250px;
+        margin-left: 400px;
+        width: 250px;
+        height: 50px;
+}
+
+.att-pizza{
+    display: flex;
+    color: #742C02;
+    font-weight: 500;
+    margin-top: 500px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+  .div-att-pizza{
+     margin-left: -120px;
+  }
+ 
+  .input-att-pizza{
+     display: flex;
+     width: 350px;
+     height: 30px;
+     border-radius: 50px;
+     background-color: #A54004;
+     opacity: 70%;
+     font-size: 1.5rem;
+     box-shadow: 2px 3px 3px grey;
+  }
+
+
+  .att-ingrediente{
+    display: flex;
+    color: #742C02;
+    font-weight: 500;
+    margin-top: 150px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+  .div-att-ingrediente{
+     margin-left: -120px;
+  }
+ 
+  .input-att-ingrediente{
+     display: flex;
+     width: 350px;
+     height: 30px;
+     border-radius: 50px;
+     background-color: #A54004;
+     opacity: 70%;
+     font-size: 1.5rem;
+     box-shadow: 2px 3px 3px grey;
+  }
+
+  .valor-att{
+    display: flex;
+    color: #742C02;
+    font-weight: 500;
+    margin-top: 150px;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+ 
+  .div-att-valor{
+     margin-left: -120px;
+  }
+ 
+  .input-att-valor{
+     display: flex;
+     width: 130px;
+     height: 30px;
+     border-radius: 50px;
+     background-color: #A54004;
+     opacity: 70%;
+     font-size: 1.5rem;
+     box-shadow: 2px 3px 3px grey;
+    
+  }
+
+  .buttons-att{
+    display: flex;
+    gap: 30px;
+    height: 35px;
+    margin-top: -780px;
+    margin-left: 1750px;
+    cursor: pointer;
+  }
+
+
+/*/////////////////Ingrediente/////////////////////////*/
+
+.novo-ingrediente1{
+    display: flex;
+    color: #A54004;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    width: auto;
+    height: 35px;
+    margin-top: 9%;
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+.button-cancelar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+    border-color: rgb(181, 37, 37);
+    color: black;
+
+}
+
+.button-cancelar:hover{
+   background-color: #d90a0a;
+   transition: 0.2s;
+}   
+
+.button-salvar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    border-color: rgb(25, 198, 80);
+    color: black;
+}
+
+.button-salvar:hover{
+    background-color: #37a80b;
+    transition: 0.2s;
+ }  
+
+ .nome-ingrediente1{
+   display: flex;
+   color: #742C02;
+   font-weight: 500;
+   margin-top: 500px;
+   font-size: 2.5rem;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .div-nome-ingrediente1{
+    margin-left: -190px;
+ }
+
+ .input-ingrediente1{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #A54004;
+    opacity: 70%;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 3px grey;
+ }
+
+
+ /*//////////////////Bebida//////////////////////////*/
+
+.nova-bebida{
+    display: flex;
+    color: #A54004;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    width: auto;
+    height: 35px;
+    margin-top: 9%;
+    margin-left: 55%;
+    cursor: pointer;
+}
+
+.button-cancelar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+    border-color: rgb(181, 37, 37);
+    color: black;
+
+}
+
+.button-cancelar:hover{
+   background-color: #d90a0a;
+   transition: 0.2s;
+}   
+
+.button-salvar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    border-color: rgb(25, 198, 80);
+    color: black;
+}
+
+.button-salvar:hover{
+    background-color: #37a80b;
+    transition: 0.2s;
+ }  
+
+ .nome-bebida{
+   display: flex;
+   color: #742C02;
+   font-weight: 500;
+   margin-top: 500px;
+   font-size: 2.5rem;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .div-nome-bebida{
+    margin-left: -190px;
+ }
+
+ .input-att-bebida{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #A54004;
+    opacity: 70%;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 3px grey;
+ }
+
+  /*//////////////////Promoção////////////////////////*/
+
+.page-att-promocao{
+    display: flex;
+    color: #A54004;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    width: auto;
+    height: 35px;
+    margin-top: 9%;
+    margin-left: 55%;
+    cursor: pointer;
+}
+
+.button-cancelar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+    border-color: rgb(181, 37, 37);
+    color: black;
+
+}
+
+.button-cancelar:hover{
+   background-color: #d90a0a;
+   transition: 0.2s;
+}   
+
+.button-salvar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    border-color: rgb(25, 198, 80);
+    color: black;
+}
+
+.button-salvar:hover{
+    background-color: #37a80b;
+    transition: 0.2s;
+ }  
+
+ .nome-promocao{
+   display: flex;
+   color: #742C02;
+   font-weight: 500;
+   margin-top: 500px;
+   font-size: 2.5rem;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .div-nome-promocao{
+    margin-left: -190px;
+ }
+
+ .input-att-promocao{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #A54004;
+    opacity: 70%;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 3px grey;
+ }
