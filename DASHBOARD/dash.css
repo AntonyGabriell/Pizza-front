@@ -448,3 +448,248 @@ details[open] .detail-tamanho:after {
     margin-left: 1750px;
     cursor: pointer;
   }
+
+
+/*/////////////////Ingrediente/////////////////////////*/
+
+.novo-ingrediente1{
+    display: flex;
+    color: #A54004;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    width: auto;
+    height: 35px;
+    margin-top: 9%;
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+.button-cancelar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+    border-color: rgb(181, 37, 37);
+    color: black;
+
+}
+
+.button-cancelar:hover{
+   background-color: #d90a0a;
+   transition: 0.2s;
+}   
+
+.button-salvar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    border-color: rgb(25, 198, 80);
+    color: black;
+}
+
+.button-salvar:hover{
+    background-color: #37a80b;
+    transition: 0.2s;
+ }  
+
+ .nome-ingrediente1{
+   display: flex;
+   color: #742C02;
+   font-weight: 500;
+   margin-top: 500px;
+   font-size: 2.5rem;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .div-nome-ingrediente1{
+    margin-left: -190px;
+ }
+
+ .input-ingrediente1{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #A54004;
+    opacity: 70%;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 3px grey;
+ }
+
+
+ /*//////////////////Bebida//////////////////////////*/
+
+.nova-bebida{
+    display: flex;
+    color: #A54004;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    width: auto;
+    height: 35px;
+    margin-top: 9%;
+    margin-left: 55%;
+    cursor: pointer;
+}
+
+.button-cancelar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+    border-color: rgb(181, 37, 37);
+    color: black;
+
+}
+
+.button-cancelar:hover{
+   background-color: #d90a0a;
+   transition: 0.2s;
+}   
+
+.button-salvar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    border-color: rgb(25, 198, 80);
+    color: black;
+}
+
+.button-salvar:hover{
+    background-color: #37a80b;
+    transition: 0.2s;
+ }  
+
+ .nome-bebida{
+   display: flex;
+   color: #742C02;
+   font-weight: 500;
+   margin-top: 500px;
+   font-size: 2.5rem;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .div-nome-bebida{
+    margin-left: -190px;
+ }
+
+ .input-att-bebida{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #A54004;
+    opacity: 70%;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 3px grey;
+ }
+
+  /*//////////////////Promoção////////////////////////*/
+
+.page-att-promocao{
+    display: flex;
+    color: #A54004;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    width: auto;
+    height: 35px;
+    margin-top: 9%;
+    margin-left: 55%;
+    cursor: pointer;
+}
+
+.button-cancelar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: center;
+    border-color: rgb(181, 37, 37);
+    color: black;
+
+}
+
+.button-cancelar:hover{
+   background-color: #d90a0a;
+   transition: 0.2s;
+}   
+
+.button-salvar{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    justify-content: center;
+    border-color: rgb(25, 198, 80);
+    color: black;
+}
+
+.button-salvar:hover{
+    background-color: #37a80b;
+    transition: 0.2s;
+ }  
+
+ .nome-promocao{
+   display: flex;
+   color: #742C02;
+   font-weight: 500;
+   margin-top: 500px;
+   font-size: 2.5rem;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ .div-nome-promocao{
+    margin-left: -190px;
+ }
+
+ .input-att-promocao{
+    display: flex;
+    width: 350px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #A54004;
+    opacity: 70%;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 3px grey;
+ }
