@@ -3,13 +3,11 @@
 const pizzasJson = {
 "nome" : "Carne com queijo",
 "valor" : "15.50",  
+"ingrediente" : "queijo, carne"
+}
 
-    "ingrediente":[{
-        "id_ingrediente": 1, 
-        "nome": "queijo parmesão" 
-}] }
 
-const divPizzas = document.querySelector('#menu-pizzas')
+const divPizzas = document.getElementById('menu-pizzas')
 
 async function consultaPizzas () {
   const retorno = await fetch(pizzasJson)
@@ -31,3 +29,5 @@ function preencheTela (pizzas) {
 }
 
 consultaPizzas()
+
+console.log(consultaPizzas());
