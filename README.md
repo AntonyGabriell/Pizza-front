@@ -16,5 +16,5 @@
 
 <h2> Links do projeto: </h2>
 
-<a href="https://github.com/Caroline-Santana/projeto-integrado-2SEM-2022"> Back - end </a>
-
+<a href="https://www.figma.com/file/LxV0XLVbkVOwInMDlX0t1x/Pizzaria?node-id=0%3A1&t=p8KDrmDxsLfXe3E1-0"> Figma</a>
+<a href="#"> Site</a>
