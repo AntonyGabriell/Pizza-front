@@ -1,38 +1,34 @@
 'use strict'
 
+import {getAllPizzas} from"./cliente.js"
 
-const pizzaJson = {
-  "nome" : "Queijo",
-  "valor" : "20,00 R$",
-  "descricao" : "Queijo, tomate, orégano"
+const pizzas = await getAllPizzas()
+
+const putProduto =(dados)=>{
+  const div = document.getElementById('menu-pizzas')
+
+  const h2 = document.querySelector('.nome-pizza')
+  h2.textContent = dados.nomePizza
+
+  const pIngrediente = document.querySelector('.menu-ingredientes')
+  pIngrediente.textContent = dados.descricaoPizza
+
+  const pValor = document.querySelector('.menu-valor')
+  pValor.textContent = dados.valorPizza
+
+  div.appendChild(h2)
+  div.appendChild(pIngrediente)
+  div.appendChild(pValor)
+
+  return div
 }
 
-
-
-
-const Pizzas = (pizzaJson) =>{
-
-  const container = document.getElementsById(cardapio)
-  const div = document.createElement('div')
-  div.classList.add('menu-pizzas')
-
-  const nomePizza = document.createElement('h2')
-  nomePizza.textContent = `${pizzaJson.nome}`
-  const descricaoPizza = document.createElement('p')
-  descricaoPizza = `${pizzaJson.descricao}`
-  const valorPizza = document.createElement('p')
-  valorPizza = `${pizzaJson.valor}`
-
-  nomePizza.classList('nome-pizza')
-  descricaoPizza.classList('menu-ingredientes')
-  valorPizza.classList('menu-valor')
-
-  div.appendChild(nomePizza)
-  div.appendChild(descricaoPizza)
-  div.appendChild(valorPizza)
-
-  container.appendChild(div)
-
-  console.log(Pizzas)
-
+const pesquisar = async()=>{
+  const get = document.getElementById('menu-pizzas')
+  const pizza = pizzas.map(putProduto)
+  get.replaceChildren(...pizza)
 }
+
+console.log(await pesquisar())
+
+await pesquisar()
