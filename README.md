@@ -18,3 +18,22 @@
 
 <a href="https://www.figma.com/file/LxV0XLVbkVOwInMDlX0t1x/Pizzaria?node-id=0%3A1&t=p8KDrmDxsLfXe3E1-0"> Figma</a>
 <a href="#"> Site</a>
+
+## Front-end
+- [ x] Prototipou o site, no figma, conforme requisitos do cliente?
+- [x ] Criou o site seguinto o planejado?
+- [ ] O site é responsivo?
+- [ ] Os produtos são carregado no site dinamicamente?
+- [ ] O formulário está validando os campos?
+- [ ] O formulário faz o envio para o servidor back-end?
+- [ ] O site foi publicado?
+- [x ] Todas as telas do CMS foram prototipadas?
+- [x] As telas foram criadas conforme planejado?
+- [ x] A tela de produtos implementa todos os métodos HTTP (get, post, put e delete)?
+- [ ] A tela de categorias implementa todos os métodos HTTP?
+- [ ] A tela de usuários implementa todos os métodos HTTP?
+- [ ] A tela de contados implementa os métodos HTTP get e delete?
+- [x ] A tela de login faz autenticação utilizando o JWT?
+- [ ] O CMS foi publicado?
+
+
