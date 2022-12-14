@@ -1,8 +1,8 @@
 header{
 
     background-color: var(--header-background);
-    height: 140px;
-    width: 100vw;
+    height: 30%;
+    width: 100%;
     display: flex;
     padding: 20px;
     z-index: 1;
@@ -29,8 +29,8 @@ font-family: 'Josefin Sans', sans-serif;
 font-size: 4rem;
 gap: 100px;
 align-items: center;
-margin-top: 250px;
-margin-left: 1200px;
+margin-top: 10%;
+margin-left: 50%;
 flex-direction: column;
 width: 70px;
 }

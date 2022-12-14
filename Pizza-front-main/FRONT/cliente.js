@@ -13,3 +13,18 @@ const getAllPizzas = async()=>{
 export{
     getAllPizzas
 }
+
+const getAllBebidas = async()=>{
+    const url = 'http://localhost:1313/v1/allbebidas'
+
+    const response = await fetch(url)
+
+    const bebidas = response.json()
+
+    return bebidas
+}
+
+export{
+    getAllPizzas,
+    getAllBebidas
+}
